@@ -65,7 +65,7 @@ class AdminPostController extends Controller
 
 		$post->update($attributes);
 
-		return back()->with('success', 'Pooost Updateeed');
+		return back()->with('success', 'Podfoost Upd2dateeed');
 	}
 
 	public function destroy(Post $post)
